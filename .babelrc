@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "react",
+    ["env", { "modules": false }],
+    "stage-1"],
+  "plugins": [
+    "transform-runtime",
+    "transform-object-rest-spread",
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+      ]
+    }
+  }
+}
